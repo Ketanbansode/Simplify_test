@@ -34,7 +34,7 @@ def currencyInIndiaFormat(n):
   return res[::-1]
 
 def main():
-  n = int(input("enter currency want to convert in indian format"))
+  n = int(input("enter currency want to convert in indian format:"))
   print ("INR " + currencyInIndiaFormat(n))
 
 main()
